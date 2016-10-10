@@ -4,11 +4,13 @@
   <artifactId>wikipedia-kleineanfragen</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <plugins>
+    <build>
         <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.2.1</version>
       </plugin>
+    </build>
   </plugins>
   <dependencies>
 	  <dependency>
