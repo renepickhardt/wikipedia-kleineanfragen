@@ -3,15 +3,15 @@
   <groupId>de.rene-pickhardt</groupId>
   <artifactId>wikipedia-kleineanfragen</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <plugins>
-    <build>
+  <build>
+    <plugins>
         <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.2.1</version>
       </plugin>
-    </build>
-  </plugins>
+	</plugins>
+  </build>
   <dependencies>
 	  <dependency>
     	<groupId>org.apache.lucene</groupId>
