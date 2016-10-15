@@ -68,16 +68,11 @@ public class IndexAndQueryWiki {
 		writer.close();
 	}
 
-	public static void mapper(String pathIndex) throws IOException,
-			ParseException {
-
-	}
-
 	public static void main(String[] args) throws IOException, ParseException {
 		String indexPath = "de-wiki-20161001-index";
 		
 		File articleData = new File(
-				"/home/kleineanfragen-wp/ka2wiki/data/de-20161001-1-tabbed-article-per-line");
+				"python/data/de-20161001-1-tabbed-article-per-line");
 		File dir = new File(indexPath);
 		if (!dir.exists()) {
 			dir.mkdirs();
